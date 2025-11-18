@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folha de pagamento</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <h1 class="logo">A&B</h1>
+        <ul>
+            <li><a href="contatoviolino.html">
+                    <p>Contato</p>
+                </a></li>
+            <li><a href="nossosinstrumentos.html">
+                    <p>Instrumentos</p>
+                </a></li>
+            <li><a href="enetnda.html">
+                    <p>Sobre os instrumentos</p>
+                </a></li>
+        </ul>
+    </nav>  
+    <header>
+        <h1>Pagamento</h1>
+    </header>
+    <div class="espaco">
+        <br>
+        <h2>Você esta comprando o <b>Leviathan</b>.</h2>
+        <img src="levi.webp" alt="celo">
+        <p>Para progredir com o pagamento, preencha o seguinte formulário:</p>
+        <br>
+        <form>
+            <legend><b>Dados pessoais</b></legend>
+            <label for="Nomecompleto">Nome completo</label><br>
+            <input type="text" size="50" minlength="3" maxlength="100" name="Nomecompleto" id="Nomecompleto" required>
+            <br>
+            <label for="email">E-mail</label><br>
+            <input type="email" size="50" minlength="3" maxlength="100" name="email" id="email" required>
+            <br>
+            <label for="endereço">Endereço</label><br>
+            <input type="text" name="endereço" id="endereço" size="50" minlength="3" maxlength="100" required>
+            <br>
+            <label for="cpf">CPF</label><br>
+            <input type="text" name="cpf" id="cpf" minlength="11" maxlength="14" required>
+            <br>
+            <label for="telefone">Telefone</label><br>
+            <input type="tel" name="telefone" id="telefone" minlength="10" maxlength="20" required>
+            <br>
+            <label for="Gênero">Gênero</label><br>
+            <label for="generoM">M</label><br>
+
+            <input type="radio" name="genero" id="generoF" value="F" required>
+            <label for="generoF">F</label><br>
+            <label for="dn">Data de nascimento</label><br>
+            <input type="date" name="dn" id="dn" required>
+            <br>
+            <label for="cor">Cor da madeira</label><br>
+            <input type="color" name="cor" id="cor" required value="#deb887">
+            <br>
+            <input type="submit" name="enviar" id="enviar" value="Enviar informações">
+            <br>
+            <br>
+            <p>Muito obrigado pela preferência e confiança na nossa equipe. Deixe sua avaliação no google.</p>
+        </form>
+    </div>
+</body>
+
+</html>
